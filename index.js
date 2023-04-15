@@ -17,7 +17,7 @@ function fun(e) {
   let xemail=validateEmail();
   let xpass=validatePass();
   if (xfn== true && xln== true && xemail== true && xpass== true ) {
-    Swal.fire("Good job!", "Your form has been submeted!", "success");
+    Swal.fire("Good job!", "Your form has been submitted!", "success");
   }
 }
 fname.addEventListener("blur", (event) => {
