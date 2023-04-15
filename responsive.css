@@ -1,0 +1,16 @@
+@media only screen and (min-width: 900px) {
+  body {
+    background-image: url(./images/bg-intro-desktop.png);
+  }
+  .container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px auto;
+    gap: 30px;
+  }
+  .text {
+    text-align: left;
+    padding: 0px;
+  }
+}
